@@ -95,6 +95,10 @@ public class Student extends Div {
         buttonLayout.add(cancel);
         return buttonLayout;
     }
+    private void navigateToVacPage()  {
+        // Navigation zur Startseite, hier die jeweilige Profilseite, die noch eingebunden werden muss
+        UI.getCurrent().navigate(Globals.Pages.ENTER_Service);
+    }
 
 
 }
